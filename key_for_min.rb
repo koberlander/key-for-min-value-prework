@@ -15,7 +15,7 @@ def key_for_min_value(name_hash)
    blank_hash = {} 
   
   #here is the block for our .each do 
-   if minimum_value == nil ||value < minimum_value 
+   if minimum_value == nil || value < minimum_value 
     
     #if the | key, value | is the smallest, we update our "counter" variables above (minimum_value and minimum_value_key)
      minimum_value = value
